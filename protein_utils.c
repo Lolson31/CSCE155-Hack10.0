@@ -20,3 +20,4 @@ int proteinMapComp(const void *a, const void *b) {
   const ProteinMap *y = (const ProteinMap *) b;
   return strcmp(x->trigram, y->trigram);
 }
+ 
