@@ -12,7 +12,7 @@
  int main(int argc, char const *argv[])
  {
   //Check for errors
-   if (argv[1] == NULL || argv[2] == NULL)
+   if (argv[0] == NULL || argv[1] == NULL)
    {
      printf("Not enough inputs\n");
      exit (1);
